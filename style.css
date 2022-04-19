@@ -6,4 +6,48 @@
 
   body {
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+      margin: 0 auto;
+  }
+
+  header {
+      display: flex;
+      padding: 1% 0 1% 0;
+  }
+
+  header h1{
+    flex: 50%;
+  }
+
+  #login {
+      flex: 50%;
+      display: inline-flex;
+  }
+
+  @media screen and (min-width: 1200px) {
+    body {
+      max-width: 1200px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+      nav {
+          display: flex;
+          padding: 0.5% 0 0.5% 0;
+      }
+
+      nav ul{
+        flex: 50%;
+      }
+
+      nav li{
+        display: inline-flex;
+        padding: 1%;
+        background-color: aqua;
+      }
+
+      #search {
+          flex: 50%;
+          display: inline-flex;
+          background-color: blueviolet;
+      }
   }
