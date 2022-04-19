@@ -16,11 +16,16 @@
 
   header h1{
     flex: 50%;
+    font-size: 3em;
   }
 
   #login {
       flex: 50%;
       display: inline-flex;
+  }
+
+  #smoothJazz {
+    padding: 1% 0 1% 0;
   }
 
   @media screen and (min-width: 1200px) {
