@@ -24,6 +24,7 @@
       display: flex;
       padding: 1% 0 1% 0;
       align-items: center;
+      padding: 1% 1% 1% 1%;
   }
 
   header h1{
@@ -34,9 +35,9 @@
 
   html{
     background-color: #363219;
-  }
+  } 
 
-  main, header, nav {
+  main {
     padding: 0 1% 0 1%;
   }
 
@@ -65,17 +66,17 @@
 
   @media screen and (min-width: 1200px) {
 
-    .cover {
-      z-index: 1;
-    }
+      .cover {
+        z-index: 1;
+      }
 
-    .play {
-      position: relative;
-      right: 36%;
-      bottom: 20%;
-      z-index: 2;
-      opacity: 66%;
-    }
+      .play {
+        position: relative;
+        right: 36%;
+        bottom: 16%;
+        z-index: 2;
+        opacity: 66%;
+      }
 
       a {
         text-decoration: none;
@@ -103,6 +104,7 @@
       nav {
           display: flex;
           align-items: center;
+          padding: 1% 1% 1% 1%;
       }
 
       nav p {
@@ -162,6 +164,10 @@
       #trending {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      #trending audio, figcaption {
+        max-width: 200px;
       }
 
   }
