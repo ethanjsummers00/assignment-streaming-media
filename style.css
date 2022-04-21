@@ -30,7 +30,6 @@
     flex: 50%;
     font-size: 3em;
     color: #D5CAB5;
-    
   }
 
   html{
@@ -65,6 +64,16 @@
   }
 
   @media screen and (min-width: 1100px) {
+
+      #continue {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      #continue figure {
+        max-width: 300px;
+      }
+
       figure {
         padding: 2% 0 2% 0;
       }
@@ -99,6 +108,26 @@
 
       nav li:hover{
         background-color: #8A988D;
+      }
+
+      #playlists {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        padding-bottom: 2%;
+      }
+
+      #playlists figure {
+        display: flex;
+        align-items: center;
+      }
+
+      #playlists figcaption {
+        padding-left: 1%;
+        font-size: 1.25em;
+      }
+
+      #smoothJazz {
+        padding: 2% 0 2% 0;
       }
 
       #smoothJazz p{
