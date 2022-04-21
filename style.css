@@ -71,11 +71,15 @@
       }
 
       .play {
-        position: relative;
-        right: 36%;
-        bottom: 16%;
+        position: absolute;
+        bottom: 60px;
+        left: 110px;
         z-index: 2;
         opacity: 66%;
+      }
+
+      .play:hover {
+        opacity: 100%;
       }
 
       a {
