@@ -8,11 +8,16 @@
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
       margin: 0 auto;
       background-color: #675D3D;
-      padding: 0 1% 0 1%;
+  }
+
+  footer {
+    background-color: #909470;
+    padding: 1% 1% 1% 1%;
   }
 
   h3 {
     color: #D5CAB5;
+    font-size: 1.5em;
   }
 
   header {
@@ -30,6 +35,10 @@
 
   html{
     background-color: #363219;
+  }
+
+  main, header, nav {
+    padding: 0 1% 0 1%;
   }
 
   #login {
@@ -67,7 +76,6 @@
 
       nav {
           display: flex;
-          padding: 0.5% 0 0.5% 0;
           align-items: center;
       }
 
