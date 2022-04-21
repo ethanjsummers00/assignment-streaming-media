@@ -34,14 +34,18 @@
     padding: 0 1% 0 1%;
   }
 
+  nav, header {
+    background-color: #909470;
+  }
+
   nav li{
     padding: 1%;
-    background-color: #909470;
+    background-color: #675D3D;
     border-radius: 15px;
   }
 
   nav li:hover{
-    background-color: #8A988D;
+    background-color: #363219;
   }
 
   #login a {
@@ -175,7 +179,7 @@
 
   }
 
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
 
     #continue {
       display: grid;
@@ -189,9 +193,7 @@
     }
 
     header {
-      display: flex;
-      padding: 1% 0 1% 0;
-      align-items: center;
+      display: block;
       padding: 1% 1% 1% 1%;
     }
 
@@ -199,20 +201,21 @@
       flex: 30%;
       font-size: 3em;
       color: #D5CAB5;
+      text-align: center;
     }
 
     #login {
       flex: 70%;
-      display: inline-flex;
+      display: flex;
       align-items: center;
-      justify-content: right;
-  }
+      justify-content: center;
+    }
 
     nav {
-      width: 70%;
-      align-items: center;
+      width: 100%;
+      justify-content: center;
       padding: 1% 1% 1% 1%;
-  }
+    }
 
     nav li{
       font-size: 1.25em;
@@ -225,8 +228,43 @@
       list-style-type: none;
     }
 
+    .play {
+      position: absolute;
+      bottom: 65px;
+      left: 115px;
+      z-index: 2;
+      opacity: 66%;
+    }
+
+    #trending {
+      justify-content: center;
+    }
+
+    #trending figure{
+      padding-bottom: 5%;
+    }
+
     #trending audio, #trending figcaption {
       max-width: 200px;
     }
+
+    #search {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    #playlists img{
+      max-width: 400px;
+    }
+
+    #playlists figure{
+      padding-bottom: 2%;
+    }
+
+    #playlists figcaption {
+      font-size: 1.25em;
+      max-width: 450px;
+    }
+
 
   }
