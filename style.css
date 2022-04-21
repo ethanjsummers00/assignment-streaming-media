@@ -63,7 +63,19 @@
     }
   }
 
-  @media screen and (min-width: 1100px) {
+  @media screen and (min-width: 1200px) {
+
+    .cover {
+      z-index: 1;
+    }
+
+    .play {
+      position: relative;
+      right: 36%;
+      bottom: 20%;
+      z-index: 2;
+      opacity: 66%;
+    }
 
       a {
         text-decoration: none;
