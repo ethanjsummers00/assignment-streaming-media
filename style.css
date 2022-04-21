@@ -56,6 +56,10 @@
   }
 
   @media screen and (min-width: 1100px) {
+      figure {
+        padding: 2% 0 2% 0;
+      }
+
       h2 {
         font-size: 2em;
         color: #D5CAB5;
@@ -99,6 +103,11 @@
           display: inline-flex;
           align-items: center;
           justify-content: right;
+      }
+
+      #trending {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
       }
 
   }
